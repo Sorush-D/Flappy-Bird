@@ -987,7 +987,7 @@ TextureImporter:
         serializedVersion: 2
         x: 145
         y: 60
-        width: 58
+        width: 97
         height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -999,28 +999,6 @@ TextureImporter:
       bones: []
       spriteID: 594d0553c037a9ba0800000000000000
       internalID: -6081421850539141995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scene_32
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 63
-        width: 40
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 61be4fee869c28b50800000000000000
-      internalID: 6594054256946637590
       vertices: []
       indices: 
       edges: []
@@ -1119,7 +1097,7 @@ TextureImporter:
         serializedVersion: 2
         x: 145
         y: 37
-        width: 50
+        width: 95
         height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1131,28 +1109,6 @@ TextureImporter:
       bones: []
       spriteID: 31acaf64b35600820800000000000000
       internalID: 2882415066785434131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scene_38
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 37
-        width: 45
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b6e57ca32aa8ddf0800000000000000
-      internalID: -155187116950296904
       vertices: []
       indices: 
       edges: []
@@ -1229,7 +1185,7 @@ TextureImporter:
         serializedVersion: 2
         x: 145
         y: 15
-        width: 35
+        width: 89
         height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1241,28 +1197,6 @@ TextureImporter:
       bones: []
       spriteID: 5445b84373e325a50800000000000000
       internalID: 6508332818329457733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scene_43
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 12
-        width: 53
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f59512d9a2f48fd0800000000000000
-      internalID: -2340479095137790475
       vertices: []
       indices: 
       edges: []

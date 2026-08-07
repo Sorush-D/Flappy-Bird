@@ -6,8 +6,10 @@ public class Bird : MonoBehaviour
 {
     Rigidbody2D rb;
     Vector3 initialPosition;
-    [SerializeField] float jumpForce = 5f;
+    [SerializeField] float jumpForce = 6f;
     [SerializeField] float angularSpeed = 5f;
+
+    float minY, maxY;
 
     void Start()
     {
@@ -17,6 +19,9 @@ public class Bird : MonoBehaviour
         initialPosition.z = 0;
 
         transform.position = initialPosition;
+
+        minY = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, 0)).y;
+        maxY = Camera.main.ViewportToWorldPoint(new Vector3(0, 1, 0)).y;
     }
 
 
@@ -24,6 +29,11 @@ public class Bird : MonoBehaviour
     {
         HandleJump();
         HandleRotation();
+
+        if (transform.position.y < minY || transform.position.y > maxY)
+        {
+            GameManager.Instance.GameOver();
+        }
     }
 
 
